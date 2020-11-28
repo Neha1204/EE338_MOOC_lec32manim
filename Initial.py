@@ -1,4 +1,6 @@
-def construct(self):
+from manimlib.imports import *
+class CascadeStruct(Scene):
+    def construct(self):
         example_text = TextMobject(
             " 1) Cascade Structure Realization",
             tex_to_color_map={"text": YELLOW}
