@@ -1,3 +1,4 @@
+from manim import *
 from manimlib.imports import *
 class CascadeStruct(Scene):
     def construct(self):
@@ -76,7 +77,7 @@ class CascadeStruct(Scene):
         self.play(Write(text5))
         self.play(Write(text6))
           
-        self.wait()
+        self.wait(3)
         self.clear()
         
         example_text2 = TextMobject(
