@@ -1,5 +1,7 @@
-from manim import *
 from manimlib.imports import *
+from pygments.styles.paraiso_dark import YELLOW
+
+
 class CascadeStruct(Scene):
     def construct(self):
         example_text = TextMobject(
