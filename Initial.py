@@ -1,5 +1,4 @@
 from manimlib.imports import *
-from pygments.styles.paraiso_light import YELLOW
 
 
 class CascadeStruct(Scene):
